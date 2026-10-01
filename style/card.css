@@ -1,0 +1,95 @@
+.card {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+@media (min-width: 758px) {
+  .card {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+@media (min-width: 1200px) {
+  .card {
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+}
+.card__title {
+  color: gray;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Courier New", Courier, monospace;
+  font-style: italic;
+  margin-bottom: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+@media (min-width: 768px) {
+  .card__title {
+    font-size: 34px;
+    margin-bottom: 50px;
+    font-weight: 700;
+  }
+}
+@media (min-width: 1200px) {
+  .card__title {
+    font-size: 44px;
+    margin-bottom: 70px;
+    font-weight: 900;
+  }
+}
+.card__list {
+  display: grid;
+  gap: 20px;
+}
+@media (min-width: 768px) {
+  .card__list {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+}
+@media (min-width: 1200px) {
+  .card__list {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+}
+.card__item {
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 8px;
+  transition-property: box-shadow;
+  transition-duration: 500ms;
+  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.card__item:hover {
+  box-shadow: 3px 3px 30px 10px gray;
+  transform: scale(1.1);
+}
+.card__subtitle {
+  font-size: 24px;
+  color: aqua;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.card__text {
+  font-size: 16px;
+  color: blue;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .card__text {
+    font-size: 24px;
+  }
+}
+@media (min-width: 1200px) {
+  .card__text {
+    font-size: 34px;
+    text-align: start;
+  }
+}
+.card__text__image {
+  width: 100%;
+  display: block;
+}/*# sourceMappingURL=card.css.map */

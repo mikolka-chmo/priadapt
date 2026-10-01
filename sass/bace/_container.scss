@@ -1,0 +1,18 @@
+.container{
+    width: 1300px;
+    margin: 0 auto;
+    padding: 0 15px;
+    outline: 1px solid red;
+
+    @media (min-width: 480px) {
+  width: 480px;
+}
+
+@media (min-width: 768px) {
+  width: 768px;
+}
+
+@media (min-width: 1300px) {
+  width: 1200px;
+}
+}
